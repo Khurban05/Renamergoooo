@@ -37,9 +37,9 @@ async def start(client,message):
 	    id = message.text.split(' ')[1]
 	except:
 	    await message.reply_text(text =f"""
-	Salom {message.from_user.first_name }
-Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
-Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
+👋 Salom {message.from_user.first_name }
+📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
@@ -51,13 +51,13 @@ Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	        try:
 	            await client.send_message(id,"Your Frind Alredy Using Our Bot")
 	            await message.reply_text(text =f"""
-	Salom {message.from_user.first_name }
-Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
-Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
+👋 Salom {message.from_user.first_name }
+📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Press Chiqarish 💪" ,url="https://t.me/+TaweX_GKt4VmZjky") ], 
-	[InlineKeyboardButton("TABOBAT COM | RASMIY", url="https://t.me/+D7PqB3EVGDxmYWM6") ]  ]))
+	 [[ InlineKeyboardButton("🎥 Kinolar Olami HD" ,url="https://t.me/Kinolar_OlamiHD") ], 
+	[InlineKeyboardButton("🎬 Premyera Kinolar", url="https://t.me/+WLX8n5s-WzRCJcok") ]  ]))
 	        except:
 	             return
 	    else:
@@ -67,14 +67,14 @@ Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	         new_limit = limit + 104857600
 	         uploadlimit(int(id),new_limit)
 	         await message.reply_text(text =f"""
-	Salom {message.from_user.first_name }
-Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
-Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
+👋 Salom {message.from_user.first_name }
+📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Press Chiqarish 💪" ,url="https://t.me/+TaweX_GKt4VmZjky") ], 
-	[InlineKeyboardButton("TABOBAT COM | RASMIY", url="https://t.me/+D7PqB3EVGDxmYWM6") ]  ]))
+	 [[ InlineKeyboardButton("🎥 Kinolar Olami HD" ,url="https://t.me/Kinolar_OlamiHD") ], 
+	[InlineKeyboardButton("🎬 Premyera Kinolar", url="https://t.me/+WLX8n5s-WzRCJcok") ]  ]))
 	         
 
 
