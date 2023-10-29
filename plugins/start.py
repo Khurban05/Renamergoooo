@@ -37,7 +37,8 @@ async def start(client,message):
 	    id = message.text.split(' ')[1]
 	except:
 	    await message.reply_text(text =f"""
-👋 Salom {message.from_user.first_name }
+👋 Salom {message.from_user.first_name } !
+
 📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
@@ -51,7 +52,8 @@ async def start(client,message):
 	        try:
 	            await client.send_message(id,"Your Frind Alredy Using Our Bot")
 	            await message.reply_text(text =f"""
-👋 Salom {message.from_user.first_name }
+👋 Salom {message.from_user.first_name } !
+
 📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	""",reply_to_message_id = message.id ,  
@@ -67,7 +69,8 @@ async def start(client,message):
 	         new_limit = limit + 104857600
 	         uploadlimit(int(id),new_limit)
 	         await message.reply_text(text =f"""
-👋 Salom {message.from_user.first_name }
+👋 Salom {message.from_user.first_name } !
+
 📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
@@ -87,25 +90,27 @@ async def send_doc(client,message):
        	try:
        		await client.get_chat_member(update_channel, user_id)
        	except UserNotParticipant:
-       		await message.reply_text(text =f"""🤖 @RENAMERE_BOT 👇
+       		await message.reply_text(text =f"""🤖 @RENAMERGO_BOT 👇
 
 ❗️Mendan foydalanish uchun oylik toʻlov qilishingiz kerak✅️
 Bir oy botdan foydalanish uchun atiga 10 ming soʻm:
+📎 Cheksiz/oyga
 
-📩 Yozing: @MENEJER_0 | @KinoUz_Admin
+📩 Yozing: @Coder_MYP
 
 ❗️You have to pay monthly to use me
  Only $1 to use the bot for a month:
+📎 Unlimit/month
 
-📩 Write to: @MENEJER_0 | @KinoUz_Admin
+📩 Write to: @Coder_MYP
 
 ❗️Вы должны платить ежемесячно, чтобы использовать меня
  Всего $1 за использование бота в течение месяца:
 
-📩 Пишите в: @MENJER_0 | @KinoUz_Admin""",
+📩 Пишите в: @Coder_MYP""",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Guruhga ulanish" ,url="https://t.me/+F4gjw2zeEsc4ODAy") ]   ]))
+       		[ [ InlineKeyboardButton("✅ Obuna | Follow | Подписать" ,url="https://t.me/+0wAY9tMw7t45MjVi") ]   ]))
        		return
        
        bot_data = find_one(int(botid))
