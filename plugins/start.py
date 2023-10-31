@@ -39,7 +39,7 @@ async def start(client,message):
 	    await message.reply_text(text =f"""
 👋 Salom {message.from_user.first_name } !
 
-📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+📂 Men 4GB gacha bo'lgan Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
 	""",reply_to_message_id = message.id ,  
@@ -54,7 +54,7 @@ async def start(client,message):
 	            await message.reply_text(text =f"""
 👋 Salom {message.from_user.first_name } !
 
-📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+📂 Men 4GB gacha bo'lgan Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
@@ -71,7 +71,7 @@ async def start(client,message):
 	         await message.reply_text(text =f"""
 👋 Salom {message.from_user.first_name } !
 
-📂 Men Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
+📂 Men 4GB gacha bo'lgan Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
 	
 	""",reply_to_message_id = message.id ,  
@@ -93,19 +93,19 @@ async def send_doc(client,message):
        		await message.reply_text(text =f"""🤖 @RENAMERGO_BOT 👇
 
 ❗️Mendan foydalanish uchun oylik toʻlov qilishingiz kerak✅️
-Bir oy botdan foydalanish uchun atiga 10 ming soʻm:
-📎 Cheksiz/oyga
+Bir oy botdan foydalanish uchun atiga 15 ming soʻm:
+📎 Cheksiz/oyga/4GB gacha
 
 📩 Yozing: @Coder_MYP
 
 ❗️You have to pay monthly to use me
- Only $1 to use the bot for a month:
-📎 Unlimit/month
+ Only $1.2 to use the bot for a month:
+📎 Unlimit/month/4GB Files Support
 
 📩 Write to: @Coder_MYP
 
 ❗️Вы должны платить ежемесячно, чтобы использовать меня
- Всего $1 за использование бота в течение месяца:
+ Всего $1.2 за использование бота в течение месяца:
 
 📩 Пишите в: @Coder_MYP""",
        		reply_to_message_id = message.id,
