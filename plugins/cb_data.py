@@ -98,7 +98,7 @@ async def doc(bot,update):
      else:
      		ph_path = None
      
-     value = 2900000000
+     value = 2000000000
      if value < file.file_size:
          await ms.edit("```Sizga yuborish boshlanmoqda...📤```")
          try:
