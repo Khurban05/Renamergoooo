@@ -200,7 +200,7 @@ async def vid(bot,update):
      		    ph_path = None
      		    print(e)
      
-     value = 2900000000
+     value = 2000000000
      if value < file.file_size:
          await ms.edit("```Sizga yuborish boshlanmoqda...📤```")
          try:
