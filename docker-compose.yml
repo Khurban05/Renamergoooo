@@ -10,3 +10,4 @@ services:
       - DB_URL=${DB_URL}
       - CHANNEL=${CHANNEL}
       - ADMIN=${ADMIN}
+      - LOG_CHANNEL=${LOG_CHANNEL}
